@@ -1,0 +1,34 @@
+.loading_center{
+  margin-top:30px;
+  text-align: center;
+}
+.p_grid__scroll{
+        overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+}
+.p_grid__scroll_item{
+    display: inline-block;
+}
+.p_grid__row {
+    display: flex;
+    flex-flow: row wrap;
+}
+.post_tag{
+  list-style: none;
+  margin:10px;
+  overflow-x: auto;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+
+}
+.post_tag li{
+  margin:5px;
+  background-color: #A4C6FF;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: grey;
+  font-weight: bold;
+    cursor: pointer;
+      display: inline-block;
+}

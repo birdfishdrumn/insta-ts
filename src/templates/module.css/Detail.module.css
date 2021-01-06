@@ -1,0 +1,110 @@
+.post_commentIcon {
+  margin-top: 25px;
+  color: grey;
+  cursor: pointer;
+}
+.post_commentLength{
+   color: grey;
+   margin-left: 15px;
+   margin-bottom: 20px;
+}
+.post_comment {
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+  margin: 1px;
+  max-width: 100%;
+}
+.post_commentUser {
+  font-weight: 500;
+  font-size: 10px;
+  color: black;
+  margin-right: 12px;
+
+}
+.post_commentText {
+  font-size: 15px;
+  color: black;
+  margin-right: 10px;
+}
+.post_form {
+  margin: 40px;
+  position: relative;
+  display: flex;
+}
+.post_input {
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  border-color: cornflowerblue;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.post_button {
+  border: none;
+  color: cornflowerblue;
+  background-color: transparent;
+  cursor: pointer;
+}
+.post_buttonDisable {
+  display: none;
+}
+.post_tag{
+  list-style: none;
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+  margin:10px;
+
+}
+.post_tag li{
+  margin:10px;
+  background-color: #A4C6FF;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: grey;
+  font-weight: bold;
+    cursor: pointer;
+}
+.favorite{
+  color:red;
+  margin-right: 10px;
+}
+.no_favorite{
+  margin-right: 10px;
+}
+.post_headerTime{
+  color: grey;
+  font-size:0.9rem;
+  margin-left: 28px;
+
+}
+.c_section_list{
+      margin: 0 auto;
+  max-width: 100%;
+    position: relative;
+    padding: 0 auto;
+
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width:575px) {
+  .post_tag li{
+  margin:5px;
+  background-color: #A4C6FF;
+  border-radius: 15px;
+  padding: 5px 10px;
+  color: grey;
+  font-weight: bold;
+  font-size:0.8rem;
+}
+.c_section_list{
+      margin: 0 auto;
+    max-width: 575px;
+    position: relative;
+    padding: 0 auto;
+
+    text-align: center;
+    width: 100%;
+}
+}
